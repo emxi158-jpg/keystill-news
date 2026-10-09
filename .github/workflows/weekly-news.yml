@@ -1,0 +1,35 @@
+name: Weekly Keystill news
+
+on:
+  schedule:
+    # Monday 09:17 in China. GitHub may delay scheduled runs.
+    - cron: '17 1 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-keystill-news
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare three short bilingual news items
+        run: python3 update_news.py --output news.json
+      - name: Save only the news data
+        shell: bash
+        run: |
+          git add news.json
+          if git diff --cached --quiet; then
+            echo "No new news package."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update three weekly bilingual news briefs"
+          git push

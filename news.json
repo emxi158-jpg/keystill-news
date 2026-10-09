@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-09T06:25:38.756233Z",
+  "frequency": "weekly",
+  "translation": "机器翻译 · MyMemory",
+  "items": [
+    {
+      "id": "weekly-4fecfd587bd801812d",
+      "title": "严冬将至，一些基辅居民考虑到别处避难",
+      "category": "世界热点",
+      "date": "2026-10-09",
+      "source": "BBC News",
+      "url": "https://www.bbc.co.uk/news/articles/c6zjx7jexz1do?at_medium=RSS&at_campaign=rss",
+      "original": "en",
+      "en": "A renewed Russian campaign of strikes on power and energy infrastructure has made some contemplate…",
+      "zh": "俄罗斯再次袭击电力和能源基础设施，使一些基辅居民开始考虑到别处避难。",
+      "translation": "机器翻译 · 首批已校对",
+      "format": "RSS 短摘要"
+    },
+    {
+      "id": "weekly-3d2c192b649ea7efdf",
+      "title": "《火柴盒》影评：玩具车电影的叙事困境",
+      "category": "文化",
+      "date": "2026-10-09",
+      "source": "The Guardian · Culture",
+      "url": "https://www.theguardian.com/film/2026/oct/08/matchbox-movie-review",
+      "original": "en",
+      "en": "John Cena and Jessica Biel collect paychecks in a soulless…",
+      "zh": "约翰·塞纳和杰西卡·贝尔出演这部电影，但评论认为影片缺少灵魂。",
+      "translation": "机器翻译 · 首批已校对",
+      "format": "RSS 短摘要"
+    },
+    {
+      "id": "weekly-78961cd4b8aa42b382",
+      "title": "德·库宁展览：不断突破自己的艺术家",
+      "category": "艺术",
+      "date": "2026-10-08",
+      "source": "The Guardian · Art and design",
+      "url": "https://www.theguardian.com/artanddesign/2026/oct/08/willem-de-kooning-at-work-review-rijksmuseum-amsterdam",
+      "original": "en",
+      "en": "Rijksmuseum, Amsterdam Marking a century since the Dutch artist stowed…",
+      "zh": "阿姆斯特丹国立博物馆展出德·库宁的作品，评论关注这位艺术家在创作中不断突破自己的过程。",
+      "translation": "机器翻译 · 首批已校对",
+      "format": "RSS 短摘要"
+    }
+  ]
+}
